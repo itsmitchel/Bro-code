@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+body{
+    background-color: rgb(211, 211, 180);
+}
+header{
+    display: inline-flex;
+    padding: 10px;
+}
+header h1{
+    margin: 15px;
+    font-size: 35px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    color:rgb(252, 32, 76);
+}
+header ul li {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    display: inline-flex;
+    margin: 20px;
+    font-size: 15px;
+    padding: 15px;
+}
+header a{
+    color: black;
+}
+header button{
+    position: absolute;
+    left: 85%;
+    bottom: 90%;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+header button:hover{
+    cursor: pointer;
+}
+header .fa-solid{
+    position: absolute;
+    bottom: 91%;
+    left: 82%;
+}
+.brain{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.brain button{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 30px;
+    width: 200px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+hr{
+    width: 100px;
+    margin-left: 45%;
+    background-color: #333;
+    height: 3px;
+}
+.work{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+.work h2{
+    font-size: 50px;
+}
+.work p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    font-size: 40px;
+}
+ol li{
+    font-size: 20px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 30px;
+    width: 150px;
+    margin: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
