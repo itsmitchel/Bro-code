@@ -14,7 +14,7 @@ header h1{
 }
 header{
     display: inline-flex;
-    margin: 20px;
+    padding: 30px;
 }
 header ul {
     list-style: none;
