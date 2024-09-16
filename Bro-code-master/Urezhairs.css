@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color:rgb(211, 211, 180);
+
+}
+header h1{
+    color: rgb(255, 41, 84);
+    background-color: black;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 35px;
+    font-size: 35px;
+}
+header{
+    display: inline-flex;
+    padding: 30px;
+}
+header ul {
+    list-style: none;
+}
+header nav a{
+    position: absolute;
+    right: 70px;
+    bottom: 90%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+header nav a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 3px 2px 2px #333;
+}
+header ul li {  
+    margin-left: 60px;
+    padding: 15px;
+    display: inline-flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+header a:hover{
+    background-color: lavender;
+    border-radius: 20px;
+    padding: 5px; 
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{    
+    margin-left: 24px; 
+}
+.text h2{
+    font-size: 80px;
+    position: absolute;
+    bottom: 50%;
+}
+.text p{
+    position: absolute;
+    bottom: 43%;
+    font-size: 20px;
+}
+.image{
+   margin-left: 95%;
+}
+.text button{
+    position: absolute;
+    bottom: 30%;
+    right: 82%;
+    margin: 20px;
+    padding: 10px;
+    color: #fff;
+    width: 15%;
+    background-color: black;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.text button:hover{
+    border: 2px solid #ccc;
+    box-shadow: 3px 2px 2px 2px #999;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.baby button{
+    position: absolute;
+    bottom: 30%;
+    left: 16%;
+    width: 12%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+.baby button:hover{
+    border: 1px solid black;
+    box-shadow: 3px 2px 2px 3px black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.black{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px;
+    line-height: 30px;
+    padding: 30px;
+    background-color:rgb(218, 215, 215);
+    width: max-content;
+    height: max-content; 
+    animation-name: great;
+    animation-duration: 4s;
+}
+.black:hover{
+    box-shadow: 2px 3px 2px 2px black;
+    cursor:pointer;
+}
+@keyframes great{
+    0%{background-color: rgb(236, 229, 229);}
+    25%{background-color: rgb(128, 101, 66);}
+    50%{background-color: azure;}
+}
+.red{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    text-align: center;
+    padding: 10px;
+}
+.red p{
+    margin: 40px;
+}
+article h1{
+     text-align: center;
+     font-size: 40px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     animation-name: good;
+     animation-duration: 5s;
+     padding: 5px;
+     background-color: #444;
+    color: rgb(243, 4, 52);
+    text-shadow: 3px 2px 4px #ffffff;
+}
+@keyframes good{
+    0%{color: tan;}
+    25%{color: burlywood;}
+    50%{color: darkslategrey;}
+    100%{color: hotpink;}
+}
+.img-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.img-row img{
+    width: 100%;
+   padding-bottom: 0;
+   cursor: pointer;
+}
+.img-1{
+    border: 1px solid gainsboro;
+    height: 78%;
+    box-shadow: 1px 2px 3px 2px #444;
+}
+.img-1 p{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+}
+.accordion{
+    background-color:rgb(253, 247, 190);
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:1px solid #999;
+}
+.active, .accordion:hover{
+    background-color: #ccc;
+}
+.panel{
+    padding: 20px;
+    display: none;
+    background-color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
+    line-height: 20px;
+}
+.img-1:hover{
+    box-shadow: 2px 1px 2px 3px black;
+    transform: scale(1.0) translateZ(5px);
+    transition: 0.5s ease;
+}
+.icon-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin: 20px;
+    padding: 7px;
+}
+.cont-1{
+    background-color: black;
+    padding: 12px;
+    color:  rgba(255, 41, 84, 0.842);
+    border-radius: 30px;
+    transform: scale(0.9);
+}
+.cont-1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 40%;
+    box-shadow: 2px 3px 3px 4px rgb(197, 196, 196);
+}
+.cont-1 p{
+    font-size: 21px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 30px;
+}
+.cont-1:hover{
+    transform: scale(1.0) translateZ(20px);
+    transition: 1s ease;
+    cursor: pointer;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 8px 35px;
+    font-size: 36px;
+    background-color: #292424;
+    padding: 12px;
+    color: rgb(255, 13, 61);
+    text-shadow: 3px 1px 3px #ffffff;
+    width: 350px;
+    text-align: center;
+    border-radius: 30px;
+}
+nav h2{
+    background-color: #292424;
+    color: rgb(252, 9, 57);
+    text-shadow: 3px 2px 4px #ffffff;
+    font-size: 30px;
+    width: 500px;
+    padding: 12px;
+    margin: 8px 25px;
+    border-radius: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
